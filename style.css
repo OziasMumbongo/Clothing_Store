@@ -30,6 +30,10 @@ body{
   color: black;
 }
 
+img{
+  width: 1005px;
+  height: 660px;
+}
 h2{
     padding-top: 30px;
    
