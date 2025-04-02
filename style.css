@@ -11,12 +11,82 @@ body{
 
 .navbar{
     border: 1px solid blue;
-    font-family:"Roboto", sans-serif ;
     height: 640px;
     width: 23%;
     position: fixed;
 }
 
+.logo{
+    text-align: center;
+    margin: 25px 0 0 0;
+    padding: 0 38px 0 0;
+    letter-spacing: 4px;
+}
+
+.heading1{
+    line-height: 1.5;
+    font-size: 24.5px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 521;
+}
+
+.navbarlist{
+    margin:  92px 0 0 0;
+    padding: 0 0 0 29%;
+    height: 45%;
+    font-family: "Roboto", sans-serif;
+}
+
+.lists{
+    list-style-type: none;
+    line-height: 1.8;
+    font-weight: bold;
+    font-size: 17.8px;
+    color: #616161;
+}
+
+.list{
+    font-size: 17.8px;
+    padding: 11px 0 0 0;
+    list-style-type: none;
+    line-height: 1.8;
+    font-weight: bold;
+    color: #616161
+}
+
+.jean{
+    font-size: 17.8px;
+    padding: 11px 0 0 0;
+    list-style-type: none;
+    line-height: 1.8;
+    font-weight: bold;
+    color: black
+}
+
+.fa-caret{
+    color: black;
+}
+
+.moreinfo{
+    margin: 26% 0 0 0;
+    height: 15%;
+}
+
+.detail{
+    padding: 0 0 0 29%;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.details{
+    font-family: "Roboto", sans-serif;
+    padding: 5% 0 0 29%;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+  /*home section*/
 .home{
     border: 1px solid red;
     width: 67.5%;
@@ -25,17 +95,72 @@ body{
     font-family: "Montserrat, sans-serif";
 }
 
+/*Jeans Sectiom*/
 .jeans{
     border: 1px solid yellow;
-    margin: 0 0 0 25%;
+    margin: 0 0 10% 25%;
     height: 660px;
     font-family: "Montserrat, sans-serif";
-    width: 67.5%;
+    width: 68.3%;
 }
 
+.img1{
+    width: 22.8%;
+    height: 49.4%;
+    filter: grayscale(80%);
+}
+
+.jpg{
+    height: 80%;
+}
+
+.heading2{
+    line-height: 1.5;
+    font-size: 15px;
+    padding:16px 0 15px 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+}
+
+.img2{
+    margin: -35.3% 0 0 25.8%;
+    width: 22.8%;
+    height: 49.4%;
+    filter: grayscale(80%);
+}
+
+.img3{
+    margin: -35.3% 0 0 51.7%;
+    width: 22.8%;
+    height: 49.4%;
+    filter: grayscale(80%);
+}
+
+.img4{
+    margin: -35.3% 0 0 77.4%;
+    width: 22.8%;
+    height: 49.4%;
+    filter: grayscale(80%);
+}
+
+.images{
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    padding-top: 10px;
+    line-height: 1.5;
+}
+
+.price{
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+/* Subscribe*/
 .subscribe{
     border: 1px solid black;
-    margin: 0 0 0 25%;
+    margin: 10px 0 0 25%;
     height: 282px;
     font-family: "Montserrat, sans-serif";
     width: 67.5%;
