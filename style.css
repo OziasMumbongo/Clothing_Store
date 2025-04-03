@@ -30,7 +30,7 @@ body{
     font-weight: 521;
 }
 
-.navbarlist{
+.navbar_list{
     margin:  92px 0 0 0;
     padding: 0 0 0 29%;
     height: 45%;
@@ -156,7 +156,25 @@ body{
     font-weight: 600;
 }
 
+.new-div{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    position: absolute;
+    width: 23%;
+    font-family: "Montserrat", sans-serif;
+    margin-top: -263px;
+    padding: 0 0 0 5px;
+}
 
+.Buy-now{
+    width: 50%;
+    height: 10%;
+    font-size: 15px;
+    margin: -190px 0 0 19%;
+    position: absolute;
+    visibility: hidden;
+}
 /* Subscribe*/
 .subscribe{
     border: 1px solid black;
