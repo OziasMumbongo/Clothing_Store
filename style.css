@@ -7,6 +7,7 @@
 body{
     width: 100%;
     height: 100%;
+    font-family: "Montserrat", sans-serif;
 }
 
 .navbar{
@@ -19,17 +20,90 @@ body{
 
 .home{
     border: 1px solid red;
-    width: 67.5%;
+    width: 69%;
     margin: 0 0 0 25%;
-    height: 660px;
-    font-family: "Montserrat, sans-serif";
+    height: 780px;
+    
+    
 }
 
+.jean-div{
+  color: black;
+  height: 90px;
+  margin-top: 7px;
+  
+}
+
+.jeans-div{
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.icons{
+    width: 300px;
+    height: 100px;
+    margin-left: 720px;
+    margin-top: -25px;
+    font-size: 24px;
+    text-align: right;
+    letter-spacing: 5px;
+}
+img{
+  width: 1020px;
+  height: 680px;
+}
+
+
+h2{
+    padding-top: 20px;
+    font-weight: 400;
+   
+}
+
+.home-div{
+    position: relative;
+}
+
+.arrivals{
+    height: 160px;
+    width: 600px;
+    position: absolute;
+    margin-top: -640px;
+    margin-left: 35px;
+    color: #ffffff;
+    font-weight: 400;
+
+}
+
+h1{
+    font-size: 72px;
+    font-weight: 400;
+}
+h2{
+    font-size: 40px;
+    margin-top: 7px;
+}
+
+button{
+    width: 173px;
+    height: 60px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 300;
+    background-color: black;
+    margin-top: 25px;
+    border: none;
+}
+
+.button :hover{
+    background-color: lightgray;
+    color: black;
+}
 .jeans{
     border: 1px solid yellow;
     margin: 0 0 0 25%;
     height: 660px;
-    font-family: "Montserrat, sans-serif";
+    font-family: "Montserrat", sans-serif;
     width: 67.5%;
 }
 
@@ -44,15 +118,124 @@ body{
 .CAS-section{
     border: 1px solid aqua;
     margin: 0 0 0 25%;
-    height: 450px;
-    font-family: "Montserrat, sans-serif";
+    height: 500px;
+    font-family: "Montserrat", sans-serif;
     width: 67.5%;
+    background-color: rgb(241, 241, 241);
+    display: flex;
 }
 
+.contact{
+    /* border: 1px solid blue; */
+    width: 400px;
+    font-family: "Montserrat, sans-serif";
+    height: 450px;
+    padding-left: 120px;
+    padding-top: 85px;
+
+}
+
+.contact-div{
+    font-family: "Montserrat", sans-serif; 
+}
+
+.questions{
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif; 
+}
+.about{
+    /* border: 1px solid blue; */
+    width: 300px;
+    height: 450px;
+    padding-left: 90px;
+    padding-top: 65px; 
+    line-height: 2.6;  
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif; 
+}
+
+.about-div{
+  /* border: 1px solid black; */
+  width: 150px;
+  height: 300px;
+  text-align: center;
+  margin-left: -40px;
+}
+
+.store{
+    /* border: 1px solid blue; */
+    width: 350px;
+    height: 450px;
+    padding-left: 20px;
+    padding-top: 85px;
+    line-height: 2.0;
+    font-family: "Montserrat", sans-serif;
+} 
+
+h4{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+p{
+    margin-left: -30px;
+}
+
+
+input{
+    width: 330px;
+    height: 40px;
+    margin-left: -120px;
+    color: rgb(146, 144, 144);
+    padding-left: 10px;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    border: 1px solid rgb(163, 161, 161);
+   
+}
+
+a{
+  color: black;
+}
+.send{
+    width:330px;
+    height: 40px;
+    margin-left: -120px;
+    font-size: 14px;
+}
+
+button :hover{
+    background-color: #ffffff;
+}
+.store-div{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 3.0;
+}
+
+.socials{
+    font-size: 18px;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.accept-div{
+    font-size: 12px;
+}
 .footer{
     border: 1px solid orange;
     margin: 0 0 0 25%;
-    height: 70px;
+    height: 80px;
     font-family: "Montserrat, sans-serif";
     width: 67.5%;
+    background-color: black;
+    color: #ffffff;
 }
+ .powered-by{
+    color: #ffffff;
+    padding-left: 480px;
+    padding-bottom: -100px;
+    font-family: "Montserrat", sans-serif;
+    
+ }
