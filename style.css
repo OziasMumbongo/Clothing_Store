@@ -11,15 +11,109 @@ body{
 }
 
 .navbar{
-    border: 1px solid blue;
-    font-family:"Roboto", sans-serif ;
     height: 640px;
     width: 23%;
     position: fixed;
 }
 
+.logo{
+    text-align: center;
+    margin: 25px 0 0 0;
+    padding: 0 38px 0 0;
+    letter-spacing: 4px;
+}
+
+.heading1{
+    line-height: 1.5;
+    font-size: 24.5px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 521;
+}
+
+.navbar_list{
+    margin:  92px 0 0 0;
+    padding: 0 0 0 29%;
+    height: 45%;
+    font-family: "Roboto", sans-serif;
+}
+
+.lists{
+    list-style-type: none;
+    line-height: 1.8;
+    font-weight: bold;
+    font-size: 17.8px;
+    color: #616161;
+}
+
+.list{
+    font-size: 17.8px;
+    padding: 11px 0 0 0;
+    list-style-type: none;
+    line-height: 1.8;
+    font-weight: bold;
+    color: #616161
+}
+
+.list:hover{
+    background-color: rgb(184, 184, 184);
+    color: black;
+}
+.lists:hover{
+    background-color: rgb(184, 184, 184);
+    color: black;
+}
+
+li.jean:hover{
+    background-color: rgb(184, 184, 184);
+    color: black;
+}
+
+.details:hover{
+    background-color: rgb(184, 184, 184);
+    color: black; 
+}
+
+.dropdown p :hover{
+    background-color: rgb(184, 184, 184);
+}
+    
+
+.jean{
+    font-size: 17.8px;
+    padding: 11px 0 0 0;
+    list-style-type: none;
+    line-height: 1.8;
+    font-weight: bold;
+    color: black
+}
+
+.fa-caret{
+    color: black;
+}
+
+.moreinfo{
+    margin: 28% 0 0 0;
+    height: 15%;
+}
+
+.detail{
+    padding: 0 0 0 29%;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+
+.details{
+    font-family: "Roboto", sans-serif;
+    padding: 5% 0 0 29%;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+  /*home section*/
 .home{
-    border: 1px solid red;
     width: 69%;
     margin: 0 0 0 25%;
     height: 780px;
@@ -40,16 +134,15 @@ body{
 }
 
 .icons{
-    width: 300px;
+    width: 100%;
     height: 100px;
-    margin-left: 720px;
     margin-top: -25px;
     font-size: 24px;
     text-align: right;
     letter-spacing: 5px;
 }
 img{
-  width: 1020px;
+  width: 100%;
   height: 680px;
 }
 
@@ -84,7 +177,7 @@ h2{
     margin-top: 7px;
 }
 
-button{
+.button_SHOP{
     width: 173px;
     height: 60px;
     font-size: 20px;
@@ -95,32 +188,155 @@ button{
     border: none;
 }
 
-.button :hover{
+.button_SHOP:hover{
     background-color: lightgray;
     color: black;
 }
+/*Jeans Sectiom*/
 .jeans{
-    border: 1px solid yellow;
-    margin: 0 0 0 25%;
+    margin: 0 0 3% 25%;
     height: 660px;
-    font-family: "Montserrat", sans-serif;
-    width: 67.5%;
+    font-family: "Montserrat, sans-serif";
+    width: 69%;
 }
 
+.img1{
+    width: 22.8%;
+    height: 49.4%;
+    filter: grayscale(80%);
+}
+
+.jpg{
+    height: 80%;
+}
+
+.heading2{
+    line-height: 1.5;
+    font-size: 15px;
+    padding:16px 0 15px 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+}
+
+.img2{
+    margin: -35.3% 0 0 25.8%;
+    width: 22.8%;
+    height: 49.4%;
+    filter: grayscale(80%);
+}
+
+.img3{
+    margin: -35.3% 0 0 51.7%;
+    width: 22.8%;
+    height: 49.4%;
+    filter: grayscale(80%);
+}
+
+.img4{
+    margin: -35.3% 0 0 77.4%;
+    width: 22.8%;
+    height: 49.4%;
+    filter: grayscale(80%);
+}
+
+.images{
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    margin-left: 0;
+    padding-top: 10px;
+    line-height: 1.5;
+}
+
+.price{
+    font-family: "Montserrat", sans-serif;
+    margin-left: 0;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.new-div{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    position: absolute;
+    width: 23%;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 0;
+    margin-top: -263px;
+    padding: 0 0 0 5px;
+}
+
+.Buy-now{
+    width: 50%;
+    height: 10%;
+    font-size: 15px;
+    margin: -200px 0 0 19%;
+    position: absolute;
+    opacity: 0;
+}
+
+.Buy-now:hover{
+    opacity: 3;
+    background-color: black;
+    border: black;
+    color: white;
+    cursor: pointer;
+}
+    
+/* Subscribe*/
 .subscribe{
     border: 1px solid black;
     margin: 0 0 0 25%;
+    font-family: "Montserrat", sans-serif;
     height: 282px;
-    font-family: "Montserrat, sans-serif";
-    width: 67.5%;
+    width: 69%;
+    color: white;
+    background-color: black;
 }
 
+.button:hover{
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+}
+
+.heading3{
+    font-weight: 400;
+    font-size: 35px;
+    padding: 50px 0 0 10px;
+    line-height: 1.5;
+}
+
+.special-offers{
+    padding: 15px 0 0 10px;
+}
+
+.email{
+    margin: 10px 0 0 10px;
+    width: 98%;
+    height: 17%;
+    font-size: 15px;
+    padding-left: 5px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.button{
+    margin: 12px 0 0 10px;
+    width: 11%;
+    height: 14%;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    background-color: #f44336;
+    color: white;
+    border: none;
+}
+
+/*C.A.S section*/
 .CAS-section{
-    border: 1px solid aqua;
     margin: 0 0 0 25%;
     height: 500px;
     font-family: "Montserrat", sans-serif;
-    width: 67.5%;
+    width: 69%;
     background-color: rgb(241, 241, 241);
     display: flex;
 }
@@ -191,7 +407,6 @@ input{
     font-size: 14px;
     font-family: "Montserrat", sans-serif;
     border: 1px solid rgb(163, 161, 161);
-   
 }
 
 a{
@@ -202,6 +417,14 @@ a{
     height: 40px;
     margin-left: -120px;
     font-size: 14px;
+    background-color: black;
+    color: white;
+}
+
+.send:hover{
+    background-color: lightgray;
+    color: black;
+    border: none;
 }
 
 button :hover{
@@ -224,18 +447,19 @@ button :hover{
     font-size: 12px;
 }
 .footer{
-    border: 1px solid orange;
     margin: 0 0 0 25%;
     height: 80px;
     font-family: "Montserrat, sans-serif";
-    width: 67.5%;
+    width: 69%;
     background-color: black;
     color: #ffffff;
 }
- .powered-by{
+ .powered_by{
     color: #ffffff;
-    padding-left: 480px;
-    padding-bottom: -100px;
+    padding: 3% 0 0 450px;
     font-family: "Montserrat", sans-serif;
-    
  }
+
+.link{
+    color: white;
+}
